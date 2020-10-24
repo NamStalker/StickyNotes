@@ -45,8 +45,10 @@ function addNewNote(color, title, content){
     }
 
     notes.append("<li><div class='" + color + "'>" +
-        "<textarea class='note-title' placeholder='Untitled' maxlength='10'></textarea>" +
-        "<textarea class='note-content' placeholder='Your content here'></textarea>" +
+        "<textarea class='note-title' placeholder='Untitled' maxlength='10'></textarea><br />" +
+        "<input type='checkbox' style='display: inline-block'>" +
+        "<textarea class='whatever' placeholder='good' maxlength='15' rows='1' cols='10' style='max-height:25px; display: inline-block'></textarea>" +
+        "" +
         "<img class='hide' src='images/delete.png' width='28' height='28' />" +
         "</div></li>");
 
