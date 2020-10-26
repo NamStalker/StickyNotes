@@ -1,0 +1,12 @@
+##########
+Tasks TODO
+##########
+
+-Align textbox well
+-add plus icon underneath the items
+    -add the actual icon
+    -make it actually add an item
+-save checkbox 
+    -make sure it actually saves
+    -make sure to save the state of the checkbox
+-add toggle for checkbox vs single textarea to write on
